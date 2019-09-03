@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+html {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#weatherinput:focus {
+    outline: none;
+}
+
+.button {
+    border: none;
+    width: 120px;
+    height: 60px;
+    font-family: 'Fira Sans', sans-serif;
+    transition: 0.3s;
+    outline: none;
+    border-radius: 12px;
+}
+
+.button:hover {
+    background-color: red;
+}
+
+.button:active {
+    background-color: yellow;
+}
